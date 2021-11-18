@@ -34,7 +34,7 @@ spec:
 
     release:
       # "openebs.io/version" label for control plane components
-      version: "3.0.0"
+      version: "3.0.3"
 
     # Legacy components will be installed if it is enabled.
     # Legacy components are - admission-server, maya api-server, snapshot-operator
@@ -289,7 +289,7 @@ spec:
     # then put this configuration under `localpv-provisioner` and `openebs-ndm` key.
     helper:
       image: "openebs/linux-utils"
-      imageTag: "3.0.0"
+      imageTag: "3.0.3"
 
     # These are ndm related configuration. If you want to enable openebs as a dependency
     # chart then set `ndm.enabled: false`, `ndmOperator.enabled: false` and enable it as
