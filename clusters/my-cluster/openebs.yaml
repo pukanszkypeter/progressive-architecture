@@ -174,11 +174,11 @@ spec:
         initialDelaySeconds: 30
         periodSeconds: 60
 
-    # If you want to enable openebs as a dependency chart then set `ndm.enabled: false`,
+    # If you want to enable openebs as a dependency chart then set `.enabled: false`,
     # `ndmOperator.enabled: false` and enable it as dependency chart. If you are using
     # custom configuration then update those configuration under `openebs-ndm` key.
     ndm:
-      enabled: true
+      enabled: false
       image: "openebs/node-disk-manager"
       imageTag: "1.7.0"
       sparse:
