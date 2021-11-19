@@ -40,7 +40,7 @@ spec:
     # Legacy components are - admission-server, maya api-server, snapshot-operator
     # and k8s-provisioner
     legacy:
-      enabled: false
+      enabled: true
 
     image:
       pullPolicy: IfNotPresent
@@ -104,7 +104,8 @@ spec:
         #   cpu: 500m
         #   memory: 1Gi
 
-    # If you want to enable local pv as a dependency chart then set
+    # If you want to enable local 
+    as a dependency chart then set
     # `localprovisioner.enabled: false` and enable it as dependency chart.
     # If you are using custom configuration then update those configuration
     # under `localpv-provisioner` key.
@@ -578,7 +579,7 @@ spec:
       # | | - openebs-ndm(disable)
       # | - openebs-ndm(enable)
     localpv-provisioner:
-      enabled: false
+      enabled: true
       openebsNDM:
         enabled: false
 
