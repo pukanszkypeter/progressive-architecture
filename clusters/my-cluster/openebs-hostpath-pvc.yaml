@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: openebs-hostpath-pvc
+  name: local-pvc
   namespace: kube-system
 spec:
   accessModes:
@@ -9,4 +9,4 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: openebs-hostpath
+  storageClassName: local
