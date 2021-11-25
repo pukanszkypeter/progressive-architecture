@@ -126,7 +126,7 @@ spec:
     lvm-localpv: 
       enabled: false
     ndm: 
-      enabled: false
+      enabled: true
       filters: 
         enableOsDiskExcludeFilter: true
         enablePathFilter: true
