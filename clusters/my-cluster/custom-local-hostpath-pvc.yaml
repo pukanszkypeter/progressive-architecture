@@ -4,7 +4,7 @@ metadata:
   name: custom-local-hostpath-pvc
   namespace: kube-system
 spec:
-  storageClassName: custom-local-hostpath-sc
+  storageClassName: openebs-hostpath
   accessModes:
     - ReadWriteOnce
   resources:
