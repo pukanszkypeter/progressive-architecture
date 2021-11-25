@@ -126,7 +126,7 @@ spec:
     lvm-localpv: 
       enabled: false
     ndm: 
-      enabled: true
+      enabled: false
       filters: 
         enableOsDiskExcludeFilter: true
         enablePathFilter: true
@@ -167,7 +167,7 @@ spec:
         podLabels: 
           name: openebs-ndm-node-exporter
     ndmOperator: 
-      enabled: true
+      enabled: false
       healthCheck: 
         initialDelaySeconds: 15
         periodSeconds: 20
