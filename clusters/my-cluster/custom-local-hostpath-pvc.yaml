@@ -1,9 +1,9 @@
-kind: PersistentVolumeClaim
 apiVersion: v1
+kind: PersistentVolumeClaim
 metadata:
-  name: local-hostpath-pvc
+  name: custom-local-hostpath-pvc
 spec:
-  storageClassName: openebs-hostpath
+  storageClassName: custom-local-hostpath-sc
   accessModes:
     - ReadWriteOnce
   resources:
