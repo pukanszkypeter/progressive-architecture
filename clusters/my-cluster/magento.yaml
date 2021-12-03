@@ -68,11 +68,11 @@ spec:
         replicas: 1
       data: 
         replicas: 1
-      enabled: false
+      enabled: true
       master: 
         replicas: 1
       sysctlImage: 
-        enabled: false
+        enabled: true
     existingSecret: ""
     externalDatabase: 
       database: bitnami_magento
