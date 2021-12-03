@@ -91,13 +91,10 @@ spec:
     extraVolumeMounts: []
     extraVolumes: []
     fullnameOverride: ""
-    
-    # GLOBAL PARAMETERS
     global: 
       imagePullSecrets: []
       imageRegistry: ""
       storageClass: ""
-      
     hostAliases: 
       - 
         hostnames: 
@@ -140,7 +137,7 @@ spec:
     magentoHost: ""
     magentoLastName: ""
     magentoMode: ""
-    magentoPassword: "abc123"
+    magentoPassword: abc123
     magentoSkipInstall: false
     magentoSkipReindex: false
     magentoUseHttps: false
