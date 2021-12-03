@@ -147,10 +147,10 @@ spec:
       architecture: standalone
       auth: 
         database: bitnami_magento
-        password: ""
+        password: abc123
         rootPassword: ""
         username: bn_magento
-      enabled: false
+      enabled: true
       image: 
         registry: docker.io
         repository: bitnami/mariadb
@@ -244,7 +244,7 @@ spec:
         http: ""
         https: ""
       port: 8080
-      type: LoadBalancer
+      type: ClusterIP
     sessionAffinity: None
     sidecars: []
     startupProbe: 
