@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: magento
         namespace: kube-system
-      version: ">=2.4.3"
+      version: ">=19.0.9"
   install: 
     disableWaitForJobs: true
   interval: 1m0s
@@ -91,10 +91,13 @@ spec:
     extraVolumeMounts: []
     extraVolumes: []
     fullnameOverride: ""
+    
+    # GLOBAL PARAMETERS
     global: 
       imagePullSecrets: []
       imageRegistry: ""
       storageClass: ""
+      
     hostAliases: 
       - 
         hostnames: 
