@@ -140,7 +140,7 @@ spec:
     magentoHost: ""
     magentoLastName: ""
     magentoMode: ""
-    magentoPassword: ""
+    magentoPassword: "abc123"
     magentoSkipInstall: false
     magentoSkipReindex: false
     magentoUseHttps: false
