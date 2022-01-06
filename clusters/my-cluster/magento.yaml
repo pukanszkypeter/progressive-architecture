@@ -22,7 +22,7 @@ spec:
     disableWaitForJobs: true
   values: 
     affinity: {}
-    allowEmptyPassword: false
+    allowEmpty: false
     args: []
     autoscaling: 
       enabled: false
@@ -137,7 +137,7 @@ spec:
     magentoHost: ""
     magentoLastName: ""
     magentoMode: ""
-    magentoPassword: abc123
+    magentoPassword: abc1234567
     magentoSkipInstall: false
     magentoSkipReindex: false
     magentoUseHttps: false
@@ -147,8 +147,8 @@ spec:
       architecture: standalone
       auth: 
         database: bitnami_magento
-        password: abc123
-        rootPassword: abc123
+        password: abc1234567
+        rootPassword: abc1234567
         username: bn_magento
       enabled: true
       image: 
