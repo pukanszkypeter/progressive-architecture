@@ -148,7 +148,7 @@ spec:
       auth: 
         database: bitnami_magento
         password: abc123
-        rootPassword: ""
+        rootPassword: abc123
         username: bn_magento
       enabled: true
       image: 
