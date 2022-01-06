@@ -77,7 +77,7 @@ spec:
     externalDatabase: 
       database: bitnami_magento
       host: ""
-      password: ""
+      password: "abc1234567"
       port: 3306
       user: bn_magento
     externalElasticsearch: 
@@ -137,7 +137,7 @@ spec:
     magentoHost: ""
     magentoLastName: ""
     magentoMode: ""
-    magentoPassword: abc1234567
+    magentoPassword: "abc1234567"
     magentoSkipInstall: false
     magentoSkipReindex: false
     magentoUseHttps: false
@@ -147,8 +147,8 @@ spec:
       architecture: standalone
       auth: 
         database: bitnami_magento
-        password: abc1234567
-        rootPassword: abc1234567
+        password: "abc1234567"
+        rootPassword: "abc1234567"
         username: bn_magento
       enabled: true
       image: 
