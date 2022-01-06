@@ -101,7 +101,7 @@ spec:
           - status.localhost
         ip: "127.0.0.1"
     image: 
-      debug: false
+      debug: true
       pullPolicy: IfNotPresent
       pullSecrets: []
       registry: docker.io
